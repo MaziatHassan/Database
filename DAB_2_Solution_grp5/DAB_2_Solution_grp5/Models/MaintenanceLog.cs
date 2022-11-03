@@ -8,5 +8,9 @@ namespace DAB_2_Solution_grp5.Models
 {
     internal class MaintenanceLog
     {
+        public int MaintenanceId { get; set; }
+        public DateTime Date { get; set; }
+        public string Description { get; set; }
+
     }
 }

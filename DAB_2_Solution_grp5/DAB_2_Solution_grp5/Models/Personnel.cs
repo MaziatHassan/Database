@@ -8,5 +8,6 @@ namespace DAB_2_Solution_grp5.Models
 {
     internal class Personnel
     {
+        public int PersId { get; set; }
     }
 }
